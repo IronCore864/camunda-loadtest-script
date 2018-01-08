@@ -1,0 +1,6 @@
+#!/bin/bash
+cat /dev/null > catalina.out
+DATE=`date +%Y-%m-%d`
+cat /dev/null > localhost_access_log.${DATE}.txt
+cat /dev/null > catalina.${DATE}.log
+cat /dev/null > localhost.${DATE}.log
